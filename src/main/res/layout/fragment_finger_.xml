@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".Finger_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:id="@+id/account"
+        style="@style/DefaultTextStyle"
+        android:layout_height="wrap_content"
+        android:text="@string/account_user"
+        android:textAlignment="center"
+        android:textSize="50sp"/>
+
+
+    <ImageView
+        android:id="@+id/fond"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/account"
+        android:contentDescription="@string/account_user"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twitte" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/account_user"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_run" />
+
+    <EditText
+        android:id="@+id/my_names"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:text="@string/bio"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/type"
+        android:textStyle="bold"
+        android:autofillHints="creditCardExpirationDate"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/my_names"
+        style="@style/DefaultTextStyle"
+        android:layout_height="wrap_content"
+        android:text="@string/handicap_type"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:id="@+id/position"
+        android:autofillHints="creditCardExpirationDate"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/type"
+        style="@style/DefaultTextStyle"
+        android:layout_height="wrap_content"
+        android:text="@string/adress"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/call"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:autofillHints="creditCardNumber"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:layout_below="@+id/position"
+        style="@style/DefaultTextStyle"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:id="@+id/home"
+        android:inputType="text"
+        android:layout_below="@+id/call"
+        android:autofillHints="creditCardNumber"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        style="@style/DefaultTextStyle"
+        android:layout_height="wrap_content"
+        android:text="@string/CodePostal"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/yellow"
+        android:text="@string/logout"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+
+        />
+
+
+</RelativeLayout>
