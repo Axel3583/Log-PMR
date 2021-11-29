@@ -20,7 +20,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:src="@drawable/community"
+            android:src="@drawable/house"
             android:scaleType="centerCrop"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:textSize="20dp" />
 
         <RatingBar
-            android:layout_width="141dp"
+            android:layout_width="140dp"
             android:layout_height="46dp"
             android:rating="3.5"
             style="@style/DefaultTextStyle"/>
@@ -41,7 +41,7 @@
             android:id="@+id/featured_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="azertrezertyuioiuytrertyuiopoiuytrezaer" />
+            android:text="azertrezertyuioiuytrertyuiopoiuytrezaer azertrezertyuioiuytrertyuiopoiuytrezaer" />
 
 
     </LinearLayout>

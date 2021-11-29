@@ -5,24 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow"
+    android:padding="10dp"
     tools:context=".MainActivity">
-
 
     <TextView
         android:id="@+id/page_title1"
         style="@style/DefaultTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:onClick="Register"
-        android:layout_margin="50dp"
-        android:text="@string/app_name"
+        android:text="@string/app_name2"
         android:textAlignment="center"
         android:textSize="35sp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/user_name"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/page_title1"
@@ -34,7 +37,7 @@
         android:inputType="text"
         android:labelFor="@+id/user_name"
         android:padding="17dp"
-        android:text="@string/name_user"
+        android:text="@string/email"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp" />
@@ -62,7 +65,7 @@
         android:layout_below="@id/login"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:text="@string/mdp"
@@ -94,7 +97,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/user_name"
+        android:layout_below="@id/email"
         android:layout_marginTop="10dp"
         android:autofillHints="creditCardExpirationDate"
         android:background="#30FFFFFF"
@@ -115,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/forgot"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="110dp"
         android:text="@string/connect_page_text_2_3"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -151,7 +154,9 @@
             android:src="@drawable/facebook" />
 
 
+
     </LinearLayout>
+
 
 
 </RelativeLayout>

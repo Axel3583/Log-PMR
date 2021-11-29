@@ -16,7 +16,7 @@ public class Description_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_description);
 
 
-        featuredRecycler = this.<RecyclerView>findViewById(R.id.featured_recycler);
+        featuredRecycler = this.findViewById(R.id.featured_recycler);
 
         featuredRecycler();
 
