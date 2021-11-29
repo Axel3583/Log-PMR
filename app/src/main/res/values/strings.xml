@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Log\'PMR</string>
+    <string name="app_name2">Connexion/Inscription à Log\'PMR</string>
+
+    <!-- Page de connection1 -->
+
+    <string name="connect_page_text_1">Espace propietaire</string>
+    <string name="connect_page_text_2">Espace locataire</string>
+    <string name="connect_page_text_3">Sans Inscription</string>
+
+    <!-- Page de connection2 -->
+
+    <string name="connect_page_text_2_1">Connexion/Inscription à Log\'PMR</string>
+    <string name="name_user">Username</string>
+    <string name="password">Password</string>
+    <string name="repass">Re-password</string>
+    <string name="connect_page_text_2_2">Login</string>
+    <string name="connect_page_text_2_3">Sign in with</string>
+    <string name="mdp">Forgot password ?</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="twitter">Twitter</string>
+    <string name="account_user">Account user</string>
+    <string name="call">Tél :</string>
+    <string name="information">Personal information</string>
+    <string name="fax">Fax :</string>
+    <string name="assistance">Assistance</string>
+    <string name="logout">Logout</string>
+    <string name="fav">favoris</string>
+    <string name="create">Create with</string>
+    <string name="register">Register</string>
+    <string name="email">E-mail</string>
+    <string name="bio">Axel dev</string>
+    <string name="name_app">Log\'PMR</string>
+
+    <string name="Phone">Phone</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">lets get Started</string>
+
+    <string name="hotels">Hotels</string>
+    <string name="restautants">Restaurant</string>
+    <string name="shops">Shop</string>
+
+    <string name="banks">Banks</string>
+    <string name="airports">Airports</string>
+
+
+    <string name="featured_locations">All featured locations</string>
+    <string name="featured_locations_description">All locations that are...</string>
+    <string name="categories">Categories</string>
+    <string name="view_All">View All</string>
+    <string name="search_text">Search...</string>
+
+
+    <string name="down">axelyvesi2@gmail.com</string>
+
+    <!-- Page de Formulaire -->
+
+    <string name="form">FORMULAIRE</string>
+
+    <string name="name">Nom : </string>
+    <string name="firstName">Prenom :</string>
+    <string name="Email">Email :</string>
+    <string name="adress">Adresse :</string>
+    <string name="CodePostal">Code postal : / Ville : </string>
+    <string name="City">Ville :</string>
+    <string name="genre">*GENRE : </string>
+    <string name="birthday"> Date de naissance : JJ/MM/AAAA</string>
+
+    <string name="handicap_type">Type d\'handicap :</string>
+    <string name="Auditif">-Auditif</string>
+
+
+    <string-array name="programming_lang">
+
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>Typescript</item>
+        <item>Visual Studio</item>
+
+    </string-array>
+
+
+    <string-array name="description">
+
+        <item>This is description</item>>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+        <item>This is description</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
