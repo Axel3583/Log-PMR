@@ -80,12 +80,6 @@ public class homeActivity extends AppCompatActivity {
 
     }
 
-
-
-
-
-
-
     private void startActivityFromFragment(Intent intent) {
         new Intent(this, Search_Fragment.class);
         startActivityFromFragment(intent);

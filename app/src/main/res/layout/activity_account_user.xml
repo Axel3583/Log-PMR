@@ -32,7 +32,7 @@ tools:context=".Description_Activity"
                 android:layout_height="200dp"
                 android:contentDescription="@string/account_user"
                 android:scaleType="centerCrop"
-                android:src="@drawable/twitte" />
+                android:src="@drawable/axel" />
 
             <ImageView
                 android:id="@+id/profile"
@@ -126,13 +126,12 @@ tools:context=".Description_Activity"
                 android:text="@string/logout"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
 
         </RelativeLayout>
 
 
     </ScrollView>
-
 
 </LinearLayout>

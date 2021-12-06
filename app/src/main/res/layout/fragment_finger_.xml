@@ -7,6 +7,9 @@
     tools:context=".Finger_Fragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+
+
     <TextView
         android:layout_width="match_parent"
         android:textStyle="bold"
@@ -16,6 +19,12 @@
         android:text="@string/account_user"
         android:textAlignment="center"
         android:textSize="50sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
 
 
     <ImageView

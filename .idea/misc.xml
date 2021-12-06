@@ -17,7 +17,7 @@
         <entry key="app/src/main/res/layout/activity_description.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_description_log2.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_favoris.xml" value="0.21739130434782608" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.29239453784373676" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home2.xml" value="0.228125" />
         <entry key="app/src/main/res/layout/activity_liste_des_log.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_logement.xml" value="0.1" />
@@ -31,7 +31,7 @@
         <entry key="app/src/main/res/layout/fragment_elderly_.xml" value="0.24307692307692308" />
         <entry key="app/src/main/res/layout/fragment_favoris_.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_favorite_.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_finger_.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_finger_.xml" value="0.24103418935595694" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_search_.xml" value="0.25" />
         <entry key="app/src/main/res/layout/list_row_main.xml" value="0.335" />

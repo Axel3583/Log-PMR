@@ -27,13 +27,13 @@ public class Register_Activity extends AppCompatActivity {
 
         uUsername = findViewById(R.id.user_name);
         mE_mail = findViewById(R.id.email);
-        mPassword = findViewById(R.id.password);
+        mPassword = findViewById(R.id.pass);
         rRepass = findViewById(R.id.repass);
         mPhone = findViewById(R.id.phone);
 
         mAuth = FirebaseAuth.getInstance();
 
-        mRegisterBtn = (Button) findViewById(R.id.registerBtn);
+        mRegisterBtn = findViewById(R.id.registerBtn);
 
         mRegisterBtn.setOnClickListener(v -> {
 
@@ -46,12 +46,12 @@ public class Register_Activity extends AppCompatActivity {
             if (userName.isEmpty()) {
                 uUsername.setError("Full name is required");
                 uUsername.requestFocus();
-                return;
+
             }
             if (email.isEmpty()) {
                 mE_mail.setError("Email required");
                 mE_mail.requestFocus();
-                return;
+
             }
 
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
@@ -63,26 +63,26 @@ public class Register_Activity extends AppCompatActivity {
             if (phone.isEmpty()) {
                 mPhone.setError("Number is required");
                 mPhone.requestFocus();
-                return;
+
             }
             if (password.isEmpty()) {
                 mPassword.setError("Password is required");
                 mPassword.requestFocus();
-                return;
+
             }
 
             if (password.length() < 6) {
 
                 mPassword.setError("Min password length 6 char");
                 mPassword.requestFocus();
-                return;
+
 
             }
 
             if (rePass.isEmpty()) {
                 rRepass.setError("Re_pass is required");
                 rRepass.requestFocus();
-                return;
+
             } else {
                 mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
